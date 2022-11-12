@@ -1,0 +1,3 @@
+enable3d_ammoPhysics = enable3d.ammoPhysics.0.25.3.min
+enable3d_framework = enable3d.framework.0.25.3.min
+enable3d_phaserExtension = enable3d.phaserExtension.0.25.3.min

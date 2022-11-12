@@ -1,0 +1,8 @@
+{
+    "name": "Service base",
+    "dockerComposeFile": ["../docker-compose.json"],
+    "service": "npm",
+    "shutdownAction": "none",
+    "workspaceFolder": "/workspace/server",
+    "extensions": []
+}

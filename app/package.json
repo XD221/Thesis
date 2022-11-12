@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Service App",
+  "main": "index.js",
+  "keywords": [
+   "Thesis",
+   "Web 3D",
+   "Enable3d"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Decx",
+  "license": "ISC",
+  "dependencies": { 
+  },
+  "devDependencies": {
+    "vite": "latest", 
+    "dotenv": "latest",
+    "typescript": "latest",
+    "gulp": "latest"
+  } 
+}

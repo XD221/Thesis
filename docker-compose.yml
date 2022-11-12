@@ -1,0 +1,21 @@
+version: '3'
+services:
+  npm:
+    container_name: nodejs-thesis
+    build: 
+      context: ./app/
+      dockerfile: Dockerfile.node
+    volumes:
+      - ./app/:/app/:rw
+      - /app/node_modules/
+    ports:
+      - "80:80"
+    privileged: true
+    #networks:
+    #  - my-network
+#networks:
+#  my-network:
+#    name: thesis-2023
+# ?   driver: bridge
+#    external: true
+
