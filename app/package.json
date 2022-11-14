@@ -4,21 +4,20 @@
   "description": "Service App",
   "main": "index.js",
   "keywords": [
-   "Thesis",
-   "Web 3D",
-   "Enable3d"
+    "Thesis",
+    "Web 3D",
+    "Enable3d"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite serve --host",
+    "build": "vite build"
   },
   "author": "Decx",
   "license": "ISC",
-  "dependencies": { 
-  },
   "devDependencies": {
-    "vite": "latest", 
-    "dotenv": "latest",
+    "gulp": "latest",
     "typescript": "latest",
-    "gulp": "latest"
-  } 
+    "vite": "latest",
+    "tslib": "latest"
+  }
 }

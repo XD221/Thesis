@@ -1,8 +1,7 @@
 {
     "name": "Service base",
-    "dockerComposeFile": ["../docker-compose.json"],
+    "dockerComposeFile": ["../docker-compose.yml"],
     "service": "npm",
     "shutdownAction": "none",
-    "workspaceFolder": "/workspace/server",
-    "extensions": []
+    "workspaceFolder": "/app"
 }
